@@ -1,6 +1,6 @@
 {
   "name": "react-native-responsive-pixels",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "React Native package to make responsive calculations.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
