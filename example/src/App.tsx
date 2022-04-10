@@ -1,22 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import { convertX, convertY, scaleFont, setBaseSize } from 'react-native-responsive-pixels';
+import { convertX, convertY, scaleFont } from 'react-native-responsive-pixels';
 
-export default function App() {
-  const [isBaseSizeReady, setBaseSizeReady] = useState<boolean>(false);
+const BASE_WIDTH = 375;
+const BASE_HEIGHT = 812;
 
-  useEffect(() => {
-    if (!isBaseSizeReady) {
-      setBaseSize(375, 812);
-      setBaseSizeReady(true);
-    }
-  }, []);
-
+const App = () => {
   return (
     <View style={{
-      width: convertX(375),
-      height: convertY(812),
-      backgroundColor: '#123455',
+      width: convertX(375, BASE_WIDTH),
+      height: convertY(812, BASE_HEIGHT),
+      backgroundColor: '#123155',
       justifyContent: 'center',
       alignItems: 'center',
     }}>
@@ -29,3 +23,5 @@ export default function App() {
 const styles = StyleSheet.create({
 
 });
+
+export default App;
