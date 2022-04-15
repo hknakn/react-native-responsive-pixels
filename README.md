@@ -1,4 +1,8 @@
 # 📱 React Native Responsive Pixels
+<br/>
+<img src="devices.png" alt="React Native Responsive Pixels" width="100%"/>
+<br/>
+
 [![Responsive UI Solution for React Native](https://img.shields.io/badge/-Responsive%20UI%20Solution%20for%20React%20Native-blue?style=for-the-badge)](https://www.npmjs.com/package/react-native-responsive-pixels)
 
 [![npm](https://img.shields.io/npm/v/react-native-responsive-pixels?style=for-the-badge)](https://www.npmjs.com/package/react-native-responsive-pixels) [![npm](https://img.shields.io/npm/dt/react-native-responsive-pixels?style=for-the-badge)](https://www.npmjs.com/package/react-native-responsive-pixels) ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg?style=for-the-badge) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -118,7 +122,7 @@ You can find the an example in [example](https://github.com/hknakn/react-native-
 ## Author
 [Hakan Akın](https://github.com/hknakn) - cehakanakin@gmail.com
 
-## License
+## License 
 React Native Pixels Library is available under the MIT license. See the LICENSE file for more info.
 
 ## Contribution
