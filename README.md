@@ -20,13 +20,14 @@ If you wanted to have same look on all devices, you just need to set base device
 This package is going to help you about responsive calculations.
 
 ## Installation
-To install this package run the command below on Terminal.
+This is a pure JS library so you just need to install npm package. To install this package run the command below on Terminal.
+
 ```bash
 npm install react-native-responsive-pixels --save
 ```
 
 ## Usage
-#### Sample Usage
+### Sample Usage
 You can just import methods and use it with values.
 ```jsx
 import React from 'react';
@@ -48,7 +49,7 @@ const App = () => {
 export default App;
 ```
 
-#### Recommended Usage
+### Recommended Usage
 Recommended usage is creating an util file and setting base device's dimensions once. Then using methods from utils file.
 
 `Util.ts` file 👇
@@ -89,7 +90,7 @@ const App = () => {
 export default App;
 ```
 
-#### Using "Devices" Enum
+### Using "Devices" Enum
 If you don't know your base device's width and height, you can select it from "Devices" enum. It automatically gets base width and height for desired device.
 
 `Util.ts` file 👇
