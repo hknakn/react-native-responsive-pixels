@@ -119,6 +119,13 @@ Then you can import and use this methods.
 ## Example
 You can find the an example in [example](https://github.com/hknakn/react-native-responsive-pixels/tree/master/example) folder.
 
+Here is some looks for same app on different sizes 👇
+
+<br/>
+
+<img src="example-1.png" alt="Example-1" width="30%"/> <img src="example-2.png" alt="Example-2" width="30%"/> <img src="example-3.png" alt="Example-3" width="30%"/>
+
+
 ## Author
 [Hakan Akın](https://github.com/hknakn) - cehakanakin@gmail.com
 
